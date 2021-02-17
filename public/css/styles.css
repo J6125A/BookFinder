@@ -1,4 +1,58 @@
+.img-div {
+	width:55%;
+	height:340px;
+
+}
+
+
 .par2{
 	font-family:'Times New Roman', Times, serif;
-	font-size:40px;
+	font-size:60px;
+}
+.nextto1 {
+	float:right;
+	margin-right:300px; 
+	margin-left:200px;
+    
+    padding-bottom:0px;
+	position:absolute;
+
+}
+
+
+.nextto2 {
+	float:right;
+	margin-right:300px; 
+	margin-left:200px;
+	position:absolute;
+	padding-top:55px;
+	
+	
+    
+}
+@media (max-width: 870px) { 
+ .nextto1{
+ 	margin-right:0px;
+ 	margin-left:0px;
+ 	margin-top:0px;
+    position:relative;
+    float:none;
+ }
+
+ .nextto2{
+ 	margin-right:0px;
+ 	margin-left:0px;
+ 	margin-top:0px;
+ 	padding-top:10px;
+     
+ 	position:relative;
+ 	float:none;
+ }
+ 
+.img-div {
+	width:90%;
+	height:260px;
+	
+}
+
 }
